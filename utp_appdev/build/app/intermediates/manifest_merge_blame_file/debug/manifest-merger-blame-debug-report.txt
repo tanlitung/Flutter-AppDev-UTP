@@ -1,0 +1,270 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.utpadc.utpappdev"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:8:5-66
+14-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:24:5-79
+15-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:24:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+16-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+19
+20    <application
+20-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:9:5-47:19
+21        android:name="io.flutter.app.FlutterApplication"
+21-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:10:9-57
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\3aaf6e5219b7f981ec263df919098c6f\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:12:9-43
+25        android:label="UTP ADC" >
+25-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:11:9-32
+26        <activity
+26-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:13:9-41:20
+27            android:name="com.utpadc.utpappdev.MainActivity"
+27-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:14:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:17:13-163
+29            android:hardwareAccelerated="true"
+29-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:18:13-47
+30            android:launchMode="singleTop"
+30-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:15:13-43
+31            android:theme="@style/LaunchTheme"
+31-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:16:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:19:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:24:13-27:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:25:15-70
+42                android:resource="@style/NormalTheme" />
+42-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:26:15-52
+43            <!--
+44                 Displays an Android View that continues showing the launch screen
+45                 Drawable until Flutter paints its first frame, then this splash
+46                 screen fades out. A splash screen is useful to avoid any visual
+47                 gap between the end of Android's launch screen and the painting of
+48                 Flutter's first frame.
+49            -->
+50            <meta-data
+50-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:33:13-36:17
+51                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+51-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:34:15-79
+52                android:resource="@drawable/launch_background" />
+52-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:35:15-61
+53
+54            <intent-filter>
+54-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:37:13-40:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:38:17-68
+55-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:38:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:39:17-76
+57-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:39:27-74
+58            </intent-filter>
+59        </activity>
+60        <!--
+61             Don't delete the meta-data below.
+62             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+63        -->
+64        <meta-data
+64-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:44:9-46:33
+65            android:name="flutterEmbedding"
+65-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:45:13-44
+66            android:value="2" />
+66-->C:\app\Flutter-AppDev-UTP\utp_appdev\android\app\src\main\AndroidManifest.xml:46:13-30
+67
+68        <service
+68-->[:firebase_auth] C:\app\Flutter-AppDev-UTP\utp_appdev\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[:firebase_auth] C:\app\Flutter-AppDev-UTP\utp_appdev\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\2ae870dc55fbccd5c639aa761f5e5f9f\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+71            android:exported="false" >
+71-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:29:13-37
+72            <meta-data
+72-->[:firebase_auth] C:\app\Flutter-AppDev-UTP\utp_appdev\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+73-->[:firebase_auth] C:\app\Flutter-AppDev-UTP\utp_appdev\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:firebase_auth] C:\app\Flutter-AppDev-UTP\utp_appdev\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+75            <meta-data
+75-->[:cloud_firestore] C:\app\Flutter-AppDev-UTP\utp_appdev\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+76-->[:cloud_firestore] C:\app\Flutter-AppDev-UTP\utp_appdev\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:cloud_firestore] C:\app\Flutter-AppDev-UTP\utp_appdev\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+78            <meta-data
+78-->[:firebase_core] C:\app\Flutter-AppDev-UTP\utp_appdev\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+79-->[:firebase_core] C:\app\Flutter-AppDev-UTP\utp_appdev\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_core] C:\app\Flutter-AppDev-UTP\utp_appdev\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+82                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+82-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+85                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+85-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\e093fdbbfda27bdef7f3ab95bbf32037\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+88                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+88-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\e093fdbbfda27bdef7f3ab95bbf32037\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\e093fdbbfda27bdef7f3ab95bbf32037\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+91                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+91-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+93        </service>
+94
+95        <activity
+95-->[:url_launcher] C:\app\Flutter-AppDev-UTP\utp_appdev\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+96            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+96-->[:url_launcher] C:\app\Flutter-AppDev-UTP\utp_appdev\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+97            android:exported="false"
+97-->[:url_launcher] C:\app\Flutter-AppDev-UTP\utp_appdev\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+98            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+98-->[:url_launcher] C:\app\Flutter-AppDev-UTP\utp_appdev\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+99
+100        <receiver
+100-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+101            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+101-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+102            android:enabled="true"
+102-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+103            android:exported="false" >
+103-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+104        </receiver>
+105        <receiver
+105-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+106            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+106-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+107            android:enabled="true"
+107-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+108            android:exported="true"
+108-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+109            android:permission="android.permission.INSTALL_PACKAGES" >
+109-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+110            <intent-filter>
+110-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+111                <action android:name="com.android.vending.INSTALL_REFERRER" />
+111-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+111-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+112            </intent-filter>
+113        </receiver>
+114
+115        <service
+115-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+116            android:name="com.google.android.gms.measurement.AppMeasurementService"
+116-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+117            android:enabled="true"
+117-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+118            android:exported="false" />
+118-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+119        <service
+119-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+120            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+120-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+121            android:enabled="true"
+121-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+123            android:permission="android.permission.BIND_JOB_SERVICE" />
+123-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+124
+125        <activity
+125-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+126            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+126-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+127            android:excludeFromRecents="true"
+127-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+128            android:exported="true"
+128-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+129            android:launchMode="singleTask"
+129-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+130            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+130-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\05c3f65301a8064b5cd1cc69ab2ab947\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+132
+133        <receiver
+133-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+134            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+134-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+135            android:exported="true"
+135-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+136            android:permission="com.google.android.c2dm.permission.SEND" >
+136-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+137            <intent-filter>
+137-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+138                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+138-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+138-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+139            </intent-filter>
+140        </receiver>
+141
+142        <provider
+142-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\2ae870dc55fbccd5c639aa761f5e5f9f\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+143            android:name="com.google.firebase.provider.FirebaseInitProvider"
+143-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\2ae870dc55fbccd5c639aa761f5e5f9f\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+144            android:authorities="com.utpadc.utpappdev.firebaseinitprovider"
+144-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\2ae870dc55fbccd5c639aa761f5e5f9f\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\2ae870dc55fbccd5c639aa761f5e5f9f\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\2ae870dc55fbccd5c639aa761f5e5f9f\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+147
+148        <activity
+148-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+149            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+149-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+152
+153        <meta-data
+153-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\c442e7c2db27d44f958cd49b29140b14\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+154            android:name="com.google.android.gms.version"
+154-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\c442e7c2db27d44f958cd49b29140b14\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+155            android:value="@integer/google_play_services_version" />
+155-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Tan Li Tung\.gradle\caches\transforms-2\files-2.1\c442e7c2db27d44f958cd49b29140b14\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+156    </application>
+157
+158</manifest>
