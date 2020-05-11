@@ -4,7 +4,7 @@ App for UTP App Development Club
 ## Setup
 Clone or download the repository.
 ```
-$ git clone https://github.com/tanlitung388/Flutter-AppDev-UTP.git
+$ git clone https://github.com/tanlitung/Flutter-AppDev-UTP.git
 $ cd Flutter-AppDev-UTP
 ```
 
