@@ -61,7 +61,7 @@ class Committee extends StatelessWidget {
                     imageUrl: 'https://media-exp1.licdn.com/dms/image/C5103AQHDwmn_y7AcCQ/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=lX6lY0J52gU_z3xlKr1OEWH2tAjjW8JGOPf39D-jnVQ',
                     name: 'Tan Li Tung',
                     position: 'Secretary',
-                    websiteUrl: 'https://tanlitung388.github.io/tanlitung',
+                    websiteUrl: 'https://tanlitung.github.io/',
                     course: 'Electrical & Electronics Engineering',
                     email: 'li_17002803@utp.edu.my',
                   ),
